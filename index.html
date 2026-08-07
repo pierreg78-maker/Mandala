@@ -70,11 +70,13 @@
         }
 
         canvas {
-            display: block;
-            cursor: crosshair;
-            background-color: #111116;
-            box-shadow: 0 0 15px rgba(0,0,0,0.5);
-        }
+  display: block;
+  cursor: crosshair;
+  background-color: #111116;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  border: 3px solid;                                    /* ← NOUVEAU */
+  border-image: linear-gradient(135deg, #00ffcc, #ff0055, #ffcc00, #9b59b6) 1; /* ← NOUVEAU */
+}
 
         #toolbar {
             background: rgba(255, 255, 255, 0.95);
